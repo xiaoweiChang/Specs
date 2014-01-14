@@ -1,5 +1,5 @@
  Pod::Spec.new do |s|
-  s.name         = "xmlrpc-ios"
+  s.name         = "xmlrpc"
   s.version      = "1.0.0"
   s.summary      = "XMLRPC Library exclusively for use in the VIPAAR iOS application"
   s.homepage     = "https+webdav://bzr.vipaar.com"
