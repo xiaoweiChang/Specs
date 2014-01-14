@@ -8,6 +8,6 @@
   s.source       = { :bzr => "https+webdav://bzr.vipaar.com/libballyhoo-ios/protocol-2", :tag => "43" }
   s.source_files = 'libballyhoo/*.{h,m}'
   s.requires_arc = true
-  s.dependency 	 = 'xmlrpc'
+  s.dependency 'xmlrpc'
 end
 
