@@ -1,5 +1,5 @@
  Pod::Spec.new do |s|
-  s.name            = "vipaar-showkit"
+  s.name            = "ShowKit"
   s.version         = "0.7.15"
   s.summary         = "ShowKit - framework stored on VIPAAR's dropbox for easy dependency integration"
   s.homepage        = "https+webdav://bzr.vipaar.com"
@@ -10,7 +10,7 @@
   s.source_files    = 'ShowKit.framework/Versions/A/Headers/ShowKit.h'
   s.preserve_paths  = 'ShowKit.framework/*'
   s.requires_arc    = true
-  s.xcconfig        = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-showkit"', 'OTHER_LDFLAGS' => '-lc++' }
+  s.xcconfig        = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ShowKit"', 'OTHER_LDFLAGS' => '-lc++' }
   s.frameworks      = 'OpenGLES', 'AVFoundation', 'QuartzCore', 'CFNetwork', 'CoreVideo', 'CoreGraphics', 'CoreMedia', 'AudioToolbox', 'SystemConfiguration', 'ShowKit'
   s.libraries       = 'z', 'resolv'
 end
