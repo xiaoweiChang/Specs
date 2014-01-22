@@ -11,14 +11,14 @@
   }
   s.author          = { "Anthony Kelani" => "anthony@showkit.com" }
   s.source          = { :http => 'https://www.dropbox.com/s/uo4fdjakhpbm21y/ShowKit-0.7.15.zip' }
-  s.platform        = :ios, '5.0'
+  s.platform        = :ios
   
   s.source_files    = 'ShowKit.framework/Versions/A/Headers/ShowKit.h'
   s.preserve_paths  = 'ShowKit.framework/*'
 
   s.frameworks      = 'OpenGLES', 'AVFoundation', 'QuartzCore', 'CFNetwork', 'CoreVideo', 'CoreGraphics', 'CoreMedia', 'AudioToolbox', 'SystemConfiguration', 'ShowKit'
   s.libraries       = 'resolv', 'z'
-  s.xcconfig        = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ShowKit"', 'OTHER_LDFLAGS' => '-lc++' }
+  s.xcconfig        = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ShowKit"', 'OTHER_LDFLAGS' => '-lc++ -ObjC' }
 
   s.requires_arc    = false
 
