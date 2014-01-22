@@ -9,7 +9,7 @@
   s.platform        = :ios
   s.source_files    = 'libyuv.h'
   s.preserve_paths  = 'libyuv.a'
-  s.library         = 'yuv'
+  s.library         = 'yuv', 'z'
   s.requires_arc    = true
   s.xcconfig        = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-libyuv"' }
 end
