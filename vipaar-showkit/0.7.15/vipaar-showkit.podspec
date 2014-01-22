@@ -11,6 +11,6 @@
   s.preserve_paths  = 'ShowKit.framework/*'
   s.requires_arc    = true
   s.xcconfig        = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-showkit"' }
-  s.frameworks      = 'ShowKit', 'OpenGLES', 'AVFoundation', 'QuartzCore', 'CFNetwork', 'CoreVideo', 'CoreGraphics', 'CoreMedia', 'AudioToolbox', 'SystemConfiguration'
+  s.frameworks      = 'OpenGLES', 'AVFoundation', 'QuartzCore', 'CFNetwork', 'CoreVideo', 'CoreGraphics', 'CoreMedia', 'AudioToolbox', 'SystemConfiguration'
   s.libraries       = 'z', 'resolv'
 end
