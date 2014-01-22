@@ -11,5 +11,5 @@
   s.preserve_paths  = 'libyuv.a'
   s.library         = 'yuv'
   s.requires_arc    = true
-  s.xcconfig        = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/libyuv"' }
+  s.xcconfig        = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-libyuv"' }
 end
