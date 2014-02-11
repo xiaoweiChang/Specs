@@ -5,7 +5,7 @@
   s.homepage     = "https+webdav://bzr.vipaar.com"
   s.license      = 'Copyright VIPAAR 2013'
   s.author       = 'Marcus Dillavou' 
-  s.source       = { :bzr => "https+webdav://bzr.vipaar.com/libballyhoo-ios/master" :tag => "58" }
+  s.source       = { :bzr => "https+webdav://bzr.vipaar.com/libballyhoo-ios/master", :tag => "58" }
   s.source_files = 'libballyhoo/*.{h,m}'
   s.requires_arc = true
   s.dependency 'vipaar-xmlrpc'
