@@ -10,7 +10,7 @@
     LICENSE
   }
   s.author          = { "Anthony Kelani" => "anthony@showkit.com" }
-  s.source          = { :http => 'ihttps://www.dropbox.com/s/b9mlknsz0oce09i/ShowKit-0.7.28.zip' }
+  s.source          = { :http => 'https://www.dropbox.com/s/b9mlknsz0oce09i/ShowKit-0.7.28.zip' }
   s.platform        = :ios
   
   s.source_files    = 'ShowKit.framework/Versions/A/Headers/ShowKit.h'
