@@ -13,7 +13,7 @@
   s.source          = { :http => 'https://www.dropbox.com/s/hhie92elmowj1d5/ShowKit-0.7.31.zip' }
   s.platform        = :ios
   
-  s.source_files    = 'ShowKit.framework/Versions/A/Headers/ShowKit.h'
+  s.source_files    = 'ShowKit.framework/Versions/A/Headers/*.h'
   s.preserve_paths  = 'ShowKit.framework/*'
 
   s.frameworks      = 'OpenGLES', 'AVFoundation', 'QuartzCore', 'CFNetwork', 'CoreVideo', 'CoreGraphics', 'CoreMedia', 'AudioToolbox', 'SystemConfiguration', 'ShowKit'
