@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = 'SVProgressHUD'
+  s.name     = 'vipaar-SVProgressHUD'
   s.version  = '1.0'
   s.platform = :ios
   s.license  = 'MIT'
