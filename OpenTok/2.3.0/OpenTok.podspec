@@ -9,7 +9,7 @@
               © 2013 OpenTok. All rights reserved.
     LICENSE
   }
-  s.source          = { :http => 'https://www.dropbox.com/s/ronadelrgpsw96n/OpenTok-2.3.0.zip?dl=0' }
+  s.source          = { :http => 'https://www.dropbox.com/s/ronadelrgpsw96n/OpenTok-2.3.0.zip?dl=1' }
   s.platform        = :ios
   
   s.source_files    = 'OpenTok.framework/Versions/A/Headers/*.h'
