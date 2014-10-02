@@ -9,7 +9,7 @@
               © 2013 OpenTok. All rights reserved.
     LICENSE
   }
-  s.source          = { :http => 'http://static.vipaar.com/downloads/cocoapods/OpenTok-2.3.0.tar.bz2' }
+  s.source          = { :http => 'http://static.vipaar.com/downloads/cocoapods/OpenTok-2.3.0.zip' }
   s.platform        = :ios
   
   s.source_files    = 'OpenTok.framework/Versions/A/Headers/*.h'
