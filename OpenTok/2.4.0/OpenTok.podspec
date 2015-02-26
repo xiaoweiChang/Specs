@@ -9,7 +9,7 @@
               © 2013 OpenTok. All rights reserved.
     LICENSE
   }
-  s.source          = { :http => 'http://stuff.vipaar.com/~marcus.dillavou/OpenTok/OpenTok-2.4.0.tar.gz' }
+  s.source          = { :http => 'http://stuff.vipaar.com/~marcus.dillavou/OpenTok/OpenTok-2.4.0.zip' }
   s.platform        = :ios
   
   s.source_files    = 'OpenTok.framework/Versions/A/Headers/*.h'
