@@ -1,3 +1,4 @@
+# coding: utf-8
  Pod::Spec.new do |s|
   s.name            = "OpenTok"
   s.version         = "2.4.0"
@@ -28,8 +29,9 @@
     		      "QuartzCore",
     		      "AudioToolbox",
     		      "OpenGLES",
-    		      "MobileCoreServices"
-  s.libraries       = 'stdc++', 'z', 'sqlite3', 'xml2'
+    		      "MobileCoreServices",
+                      "VideoToolbox"
+  s.libraries       = 'c++', 'z', 'sqlite3', 'xml2'
   s.xcconfig        = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/OpenTok"' }
 
   s.requires_arc    = false
