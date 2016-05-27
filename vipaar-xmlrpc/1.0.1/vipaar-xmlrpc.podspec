@@ -5,7 +5,7 @@
   s.homepage     = "https+webdav://bzr.vipaar.com"
   s.license      = 'Copyright VIPAAR 2013'
   s.author       =  'Marcus Dillavou' 
-  s.source       = { :bzr => "https+webdav://bzr.vipaar.com/ios-xmlrpc/master", :tag => "4" }
+  s.source       = { :bzr => "bzr+ssh://bzr.vipaar.com/repos/ios-xmlrpc/master", :tag => "4" }
   s.source_files = 'xmlrpc/XML*.{h,m}', 'xmlrpc/NSStringAdditions.{h,m}', 'xmlrpc/NSData*.{h,m}'
   s.requires_arc = true
 end
