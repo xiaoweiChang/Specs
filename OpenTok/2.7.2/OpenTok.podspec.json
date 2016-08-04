@@ -15,7 +15,7 @@
     "ios": "6.0"
   },
   "source": {
-    "http": "https://tokbox.com/downloads/opentok-ios-sdk-2.7.2"
+    "http": "https://tokbox.com/downloads/opentok-ios-sdk-2.7.2.tar.bz2"
   },
   "vendored_frameworks": "OpenTok.framework",
   "frameworks": [
