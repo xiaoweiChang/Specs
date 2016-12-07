@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-    s.name                      = "librcl"
+    s.name                      = "vipaar-rcl"
     s.version                   = "1.0.0"
     s.summary                   = "Reliable Connection Layer"
-    s.homepage                  = "https://github.com/VIPAAR/#{s.name}"
+    s.homepage                  = "https://github.com/VIPAAR/librcl"
     s.license                   = "Copyright (c) 2016 VIPAAR, LLC."
     s.author                    = "Help Lightning"
     s.source                    = { :git => "#{s.homepage}.git", :tag => "#{s.version}" }
