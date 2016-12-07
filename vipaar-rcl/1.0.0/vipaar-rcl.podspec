@@ -9,10 +9,15 @@ Pod::Spec.new do |s|
     s.source_files              = "ios/src/**/*.{h,m}"
     s.requires_arc              = true
     s.ios.deployment_target     = '8.0'
+    s.framework                 = 'j2objc'
     s.pod_target_xcconfig       = {
-      'OTHER_LDFLAGS' => '-ljre_emul',
       'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/J2ObjC-Framework/Distributive/lib"',
-      'USER_HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/J2ObjC-Framework/Distributive/include"',
+      'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/J2ObjC-Framework/Distributive/include"',
+      'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/J2ObjC-Framework/Frameworks"'
+    }
+    s.user_target_xcconfig      = {
+      'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/J2ObjC-Framework/Distributive/lib"',
+      'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/J2ObjC-Framework/Distributive/include"',
       'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/J2ObjC-Framework/Frameworks"'
     }
     s.header_mappings_dir       = 'ios/src'
