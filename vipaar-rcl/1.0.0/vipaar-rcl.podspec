@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage                  = "https://github.com/VIPAAR/librcl"
     s.license                   = "Copyright (c) 2016 VIPAAR, LLC."
     s.author                    = "Help Lightning"
-    s.source                    = { :git => "#{s.homepage}.git", :tag => "#{s.version}" }
+    s.source                    = { :git => "#{s.homepage}.git", :branch => "master" }
     s.source_files              = "ios/src/**/*.{h,m}"
     s.requires_arc              = true
     s.ios.deployment_target     = '8.0'
