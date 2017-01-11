@@ -11,9 +11,7 @@ Pod::Spec.new do |s|
     }
     s.preserve_paths            = "distributive"
     s.prepare_command           = <<-CMD
-        unzip -o -q j2objc-#{s.version}.zip
         mv j2objc-#{s.version} distributive
-        rm j2objc-#{s.version}.zip
       CMD
     s.requires_arc              = true
     s.platform                  = :ios
