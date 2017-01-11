@@ -5,7 +5,15 @@ Pod::Spec.new do |s|
     s.homepage                  = "http://www.helplightning.com"
     s.license                   = "Copyright (c) 2017 VIPAAR, LLC."
     s.author                    = "Help Lightning"
-    s.source                    = { :git => "https://github.com/HaleXie/vipaar-j2objc.git", :branch => "1.2" }
+    s.source                    = {
+      :http => "https://github.com/google/j2objc/releases/download/#{s.version}/j2objc-#{s.version}.zip",
+      :sha1 => "62988333bcf505514a1af8aa37ee00c5f2b59c35"
+    }
+    s.preserve_paths            = "distributive"
+    s.prepare_command           = <<-CMD
+        unzip -o -q j2objc-${j2objc_version}.zip
+        mv j2objc-#{s.version} distributive
+      CMD
     s.prepare_command           = './download.sh'
     s.preserve_paths            = "distributive", "download.sh"
     s.requires_arc              = true
