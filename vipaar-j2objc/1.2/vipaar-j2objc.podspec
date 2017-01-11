@@ -11,11 +11,10 @@ Pod::Spec.new do |s|
     }
     s.preserve_paths            = "distributive"
     s.prepare_command           = <<-CMD
-        unzip -o -q j2objc-${j2objc_version}.zip
+        unzip -o -q j2objc-#{s.version}.zip
         mv j2objc-#{s.version} distributive
+        rm j2objc-#{s.version}.zip
       CMD
-    s.prepare_command           = './download.sh'
-    s.preserve_paths            = "distributive", "download.sh"
     s.requires_arc              = true
     s.platform                  = :ios
     s.ios.deployment_target     = '8.0'
