@@ -6,7 +6,7 @@
   s.license      = 'Copyright VIPAAR 2017'
   s.author       = 'Marcus Dillavou' 
   s.source       = { :bzr => "bzr+ssh://bzr.vipaar.com/repos/libballyhoo-ios/3.0.x", :tag => "3.0.0" }
-  s.source_files = 'libballyhoo/*.{h,m}'
+  s.source_files = 'libballyhoo/**/*.{h,m}'
   s.requires_arc = true
   s.ios.dependency  'vipaar-rcl', '1.0.0'
   s.ios.dependency  'CocoaZ', '1.4.2'
