@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
       'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-opencv/distributive/opencv2.framework/include"'
     }
     s.user_target_xcconfig      = {
-      'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-opencv"'
+      'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-opencv"',
+      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-opencv/distributive/opencv2.framework/include"'
     }
 end
