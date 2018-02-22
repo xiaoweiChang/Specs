@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.requires_arc              = true
     s.platform                  = :ios
     s.ios.deployment_target     = '9.0'
-    s.vendored_frameworks       = 'opencv2.framework'
+    s.vendored_frameworks       = "opencv2"
     s.pod_target_xcconfig       = {
       'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-opencv/distributive"',
       'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-opencv/distributive/include"'
