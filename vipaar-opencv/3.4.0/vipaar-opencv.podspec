@@ -15,16 +15,19 @@ Pod::Spec.new do |s|
         mv opencv2.framework distributive
         cp -R distributive/opencv2.framework/Headers/* distributive/include/opencv2
       CMD
-    s.requires_arc              = true
+
+    s.frameworks                = 'AssetsLibrary', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreVideo', 'Foundation', 'QuartzCore', 'UIKit'
+    s.libraries                 = 'c++'
+    s.requires_arc              = false
     s.platform                  = :ios
     s.ios.deployment_target     = '9.0'
-    s.vendored_frameworks       = "opencv2"
+    s.vendored_frameworks       = 'opencv2.framework'
     s.pod_target_xcconfig       = {
-      'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-opencv/distributive"',
-      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-opencv/distributive/include"'
+      'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-opencv/distributive/"',
+      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-opencv/distributive/include/"'
     }
     s.user_target_xcconfig      = {
       'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-opencv/distributive"',
-      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-opencv/distributive/include"'
+      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-opencv/distributive/include/"'
     }
 end
