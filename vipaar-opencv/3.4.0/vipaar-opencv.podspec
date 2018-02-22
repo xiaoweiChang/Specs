@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
     s.vendored_frameworks       = 'opencv2'
     s.pod_target_xcconfig       = {
       'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-opencv"',
-      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-opencv/distributive/opencv2.framework/include"'
+      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-opencv/distributive/include"'
     }
     s.user_target_xcconfig      = {
       'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-opencv"',
-      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-opencv/distributive/opencv2.framework/include"'
+      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-opencv/distributive/include"'
     }
 end
