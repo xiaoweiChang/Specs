@@ -9,6 +9,11 @@ Pod::Spec.new do |s|
       :http => "https://github.com/opencv/opencv/releases/download/#{s.version}/opencv-#{s.version}-ios-framework.zip",
       :sha1 => "661d51dfcea1465d7126ff32aebb440578ad40b0"
     }
+    s.preserve_paths            = "distributive"
+    s.prepare_command           = <<-CMD
+        mkdir distributive
+        mv opencv2.framework distributive
+      CMD
     s.requires_arc              = true
     s.platform                  = :ios
     s.ios.deployment_target     = '9.0'
