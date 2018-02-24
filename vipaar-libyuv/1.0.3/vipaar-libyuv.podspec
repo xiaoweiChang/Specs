@@ -15,7 +15,7 @@
       'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-libyuv/include"'
     }
     s.user_target_xcconfig      = {
-#      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-libyuv/include"'
+      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-libyuv/include"'
     }
 
 
