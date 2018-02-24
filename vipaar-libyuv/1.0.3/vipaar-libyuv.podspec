@@ -8,7 +8,7 @@
   s.source          = { :git => 'https://chromium.googlesource.com/libyuv/libyuv', :commit => '85722f5'}
   s.platform        = :ios
   s.libraries       = 'c++'
-  s.source_files    = 'source/*.cc', 'include/*.h'
+  s.source_files    = 'source/*.cc', 'include/**/*.h'
   s.header_dir = 'include'
   s.header_mappings_dir = 'include'
   s.pod_target_xcconfig       = {
