@@ -27,7 +27,6 @@ Pod::Spec.new do |s|
     }
     s.user_target_xcconfig      = {
       'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/seekware/distributive"',
-      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/seekware/distributive/include/"',
-      'ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES' => 'YES'
+      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/seekware/distributive/include/"'
     }
 end
