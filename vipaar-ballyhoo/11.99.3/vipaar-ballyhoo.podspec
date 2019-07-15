@@ -8,7 +8,7 @@
   s.source       = { :git => "#{s.homepage}", :tag => "#{s.version}" }
   s.source_files = 'libballyhoo/**/*.{h,m}'
   s.requires_arc = true
-  s.ios.dependency  'vipaar-rcl', '1.0.0'
+  s.ios.dependency  'vipaar-rcl', '1.0.2'
   s.ios.dependency  'CocoaZ', '1.4.2'
   s.dependency      'vipaar-xmlrpc'
   s.pod_target_xcconfig      = {
