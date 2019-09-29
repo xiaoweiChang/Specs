@@ -12,18 +12,21 @@ Pod::Spec.new do |s|
     s.description = <<-DESC
     Promises is a modern framework that provides a synchronization construct for
     Objective-C to facilitate writing asynchronous code.
-                       DESC
+      DESC
+
     s.prepare_command           = <<-CMD
-        echo $PWD
+        export BUILD_TARGET=FBLPromises
         mkdir -p distributive
         rm promises-#{s.version}/BUILD
         cd promises-#{s.version}
-        xcodebuild -target FBLPromises -configuration Release
-        mv build/Release/FBLPromises.framework ../distributive
-        mv LICENSE ../distributive
+        xcodebuild archive -target $BUILD_TARGET -configuration Release -sdk iphoneos ONLY_ACTIVE_ARCH=NO
+        xcodebuild archive -target $BUILD_TARGET -configuration Release -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+        cp -RL build/Release-iphoneos/$BUILD_TARGET.framework ../distributive
+        lipo -create -output ../distributive/$BUILD_TARGET.framework/$BUILD_TARGET build/Release-iphoneos/$BUILD_TARGET.framework/$BUILD_TARGET build/Release-iphonesimulator/$BUILD_TARGET.framework/$BUILD_TARGET
+        cp LICENSE ../distributive
       CMD
 
-    s.ios.deployment_target  = '10.0'
+    s.ios.deployment_target  = '8.0'
     s.platform                  = :ios
     s.preserve_paths            = "distributive"
     s.ios.vendored_frameworks   = 'distributive/FBLPromises.framework'
