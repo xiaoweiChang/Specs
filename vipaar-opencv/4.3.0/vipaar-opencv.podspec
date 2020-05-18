@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.author                    = "OpenCV"
     s.source                    = {
       :http => "https://github.com/opencv/opencv/releases/download/#{s.version}/opencv-#{s.version}-ios-framework.zip",
-      :sha1 => "e33862428753697e176f65870b5ae93a39e0bc1c"
+      :sha1 => "9e8cad84c66f204b6761c716ac64effe25b66dcd"
     }
     s.preserve_paths            = "distributive"
     s.prepare_command           = <<-CMD
