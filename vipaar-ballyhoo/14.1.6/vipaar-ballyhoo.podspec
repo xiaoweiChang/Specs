@@ -5,7 +5,7 @@
   s.homepage     = "https://github.com/VIPAAR/libballyhoo-ios.git"
   s.license      = 'Copyright Helplightning 2020'
   s.author       = 'Help Lightning' 
-  s.source       = { :git => "#{s.homepage}", :tag => "#{s.version}" }
+  s.source       = { :git => "ssh://git@github.com/VIPAAR/libballyhoo-ios.git", :tag => "#{s.version}" }
   s.source_files = 'libballyhoo/**/*.{h,m}'
   s.requires_arc = true
   s.ios.dependency  'vipaar-rcl', '1.0.2'
