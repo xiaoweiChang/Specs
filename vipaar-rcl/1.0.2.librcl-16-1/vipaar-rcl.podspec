@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                      = "vipaar-rcl"
-    s.version                   = "1.0.2.librcl-16"
+    s.version                   = "1.0.2.librcl-16-1"
     s.summary                   = "Reliable Connection Layer"
     s.homepage                  = "https://github.com/VIPAAR/librcl"
     s.license                   = "Copyright (c) 2016 VIPAAR, LLC."
