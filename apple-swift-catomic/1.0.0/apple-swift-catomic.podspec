@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-    s.name = "apple-swift-markdown"
+    s.name = "apple-swift-catomic"
     s.version = "1.0.0"
-    s.summary = "Swift Markdown is a Swift package for parsing, building, editing, and analyzing Markdown documents."
+    s.summary = "CAtomic"
     s.homepage = "https://github.com/apple/swift-markdown"
     s.license = { :type => "Apache", :file => "LICENSE.txt" }
     s.author = "Apple"
@@ -10,14 +10,11 @@ Pod::Spec.new do |s|
         :commit => "caafc56d3794a08c2203fe417b3aff81e2ab2fc1",
     }
     s.ios.deployment_target = "13.0"
-    s.ios.dependency 'apple-swift-catomic', '1.0.0'
-    s.ios.dependency 'apple-swift-cmark-gfm', '1.0.0'
-    s.ios.dependency 'apple-swift-cmark-gfm-extensions', '1.0.0'
     s.swift_version = '5.0'
     s.requires_arc = true
-    s.module_name = "Markdown"
+    s.module_name = "CAtomic"
     s.source_files = [
-        "Sources/Markdown/**/*.swift",
+        "Sources/CAtomic/**/*.{h,c}"
     ]
     s.preserve_paths = [
         "README.md",
