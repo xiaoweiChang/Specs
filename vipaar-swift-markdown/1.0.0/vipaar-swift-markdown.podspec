@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name = "apple-swift-markdown"
+    s.name = "vipaar-swift-markdown"
     s.version = "1.0.0"
     s.summary = "Swift Markdown is a Swift package for parsing, building, editing, and analyzing Markdown documents."
     s.homepage = "https://github.com/apple/swift-markdown"

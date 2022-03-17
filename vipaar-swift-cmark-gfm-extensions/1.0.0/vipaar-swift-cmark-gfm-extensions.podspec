@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name = "apple-swift-cmark-gfm-extensions"
+    s.name = "vipaar-swift-cmark-gfm-extensions"
     s.version = "1.0.0"
     s.summary = "cmark-gfm is an extended version of the C reference implementation of CommonMark."
     s.homepage = "https://github.com/apple/swift-cmark"
