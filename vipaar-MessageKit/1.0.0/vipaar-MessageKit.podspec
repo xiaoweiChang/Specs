@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
          "Steven Deutsch" => "stevensdeutsch@yahoo.com"
     }
  
-    s.source = { :git => 'ssh://git@github.com/VIPAAR/MessageKit.git', :tag => "hl-" + s.version }
+    s.source = { :git => 'ssh://git@github.com/VIPAAR/MessageKit.git', :tag => "hl-1.0.0" }
     s.source_files = 'Sources/**/*.swift'
  
     s.swift_version = '5.3'
