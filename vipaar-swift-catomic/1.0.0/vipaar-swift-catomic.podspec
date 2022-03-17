@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name = "apple-swift-catomic"
+    s.name = "vipaar-swift-catomic"
     s.version = "1.0.0"
     s.summary = "CAtomic"
     s.homepage = "https://github.com/apple/swift-markdown"
