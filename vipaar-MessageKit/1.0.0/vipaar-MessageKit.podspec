@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.author = {
          "Steven Deutsch" => "stevensdeutsch@yahoo.com"
     }
- 
+    s.module_name = "MessageKit"
     s.source = { :git => 'ssh://git@github.com/VIPAAR/MessageKit.git', :tag => "hl-1.0.0" }
     s.source_files = 'Sources/**/*.swift'
  
