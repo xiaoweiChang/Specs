@@ -6,8 +6,7 @@ Pod::Spec.new do |s|
     s.summary = 'An elegant messages UI library for iOS.'
     s.homepage = 'https://github.com/VIPAAR/MessageKit'
     s.author = {
-         "Steven Deutsch" => "stevensdeutsch@yahoo.com",
-         "Help Lightning"
+         "Steven Deutsch" => "stevensdeutsch@yahoo.com"
     }
  
     s.source = { :git => 'ssh://git@github.com/VIPAAR/MessageKit.git', :tag => "hl-" + s.version }
