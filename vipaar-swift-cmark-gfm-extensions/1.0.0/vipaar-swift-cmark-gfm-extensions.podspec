@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
         :commit => "3780d733061ba47d1b9dfc4e224079e53d3f3023"
     }
     s.ios.deployment_target = "13.0"
-    s.ios.dependency 'apple-swift-cmark-gfm', '1.0.0'
+    s.ios.dependency 'vipaar-swift-cmark-gfm', '1.0.0'
     s.swift_version = '5.0'
     s.requires_arc = true
     s.module_name = "cmark_gfm_extensions"
