@@ -8,7 +8,7 @@
   s.source       = { :git => "ssh://git@github.com/VIPAAR/libballyhoo-ios.git", :tag => "#{s.version}" }
   s.source_files = 'libballyhoo/**/*.{h,m}'
   s.requires_arc = true
-  s.ios.dependency  'vipaar-rcl', '1.0.2.librcl-16-1'
+  s.ios.dependency  'vipaar-rcl', '1.0.3'
   s.ios.dependency  'CocoaZ', '1.4.2'
   s.ios.dependency  'vipaar-xmlrpc'
   s.ios.dependency  'PromisesObjC', '2.0.0'
