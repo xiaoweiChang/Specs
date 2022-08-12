@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name        = 'SVGKit'
+    s.name        = 'vipaar-SVGKit'
     s.version     = '3.1.0'
     s.license     = 'MIT'
     s.osx.deployment_target = '10.9'
