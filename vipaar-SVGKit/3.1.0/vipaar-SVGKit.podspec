@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                    'Eric Man'        => 'meric.au@gmail.com',
                    'Matt Rajca'      => 'matt.rajca@me.com',
                    'Moritz Pfeiffer' => 'moritz.pfeiffer@alp-phone.ch' }
-    s.source   = { :git => 'ssh://git@github.com/HaleXie/SVGKit.git', :commit => 'b84079b3ce316a1d582644ffb666ee99312045d7' }
+    s.source   = { :git => 'ssh://git@github.com/VIPAAR/SVGKit.git', :tag => "#{s.version}" }
     s.source_files = 'Source/*.{h,m}', 'Source/**/*.{h,m}'
     s.exclude_files = 'Source/include/*.h'
     s.private_header_files = 'Source/SVGKDefine_Private.h'
