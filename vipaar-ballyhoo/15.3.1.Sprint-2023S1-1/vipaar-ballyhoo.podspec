@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
   s.name         = "vipaar-ballyhoo"
-  s.version      = "15.3.1.Sprint-2023S1"
+  s.version      = "15.3.1.Sprint-2023S1-1"
   s.summary      = "Ballyhoo is a communications library exclusively for use in the VIPAAR iOS application"
   s.homepage     = "https://github.com/VIPAAR/libballyhoo-ios.git"
   s.license      = 'Copyright Helplightning 2022'
