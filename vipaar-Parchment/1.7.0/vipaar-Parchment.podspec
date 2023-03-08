@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.homepage = 'https://github.com/rechsteiner/Parchment'
     s.author   = { 'Martin Rechsteiner'    => 'marrechsteiner@gmail.com"'}
     
-    s.source   = { :git => 'ssh://git@github.com/Pro2005/Parchment.git', :tag => "v1.7.0" }
+    s.source   = { :git => 'ssh://git@github.com/VIPAAR/Parchment.git', :tag => "v1.7.0" }
     s.source_files = 'Parchment/**/*.swift', 'Parchment/*.swift'
 
     s.requires_arc = true
