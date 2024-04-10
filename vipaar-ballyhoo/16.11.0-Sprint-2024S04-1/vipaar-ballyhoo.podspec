@@ -13,7 +13,7 @@
   s.ios.dependency  'vipaar-xmlrpc'
   s.ios.dependency  'PromisesObjC', '2.0.0'
   s.ios.dependency  'Realm', '10.41.1'
-  s.module_name  = 'HLLibBallyhoo'
+  s.module_name  = 'HLSDKBallyhoo'
   s.pod_target_xcconfig      = {
     'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-j2objc/distributive/frameworks"',
     'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-j2objc/distributive/include"',
@@ -41,11 +41,11 @@
 
   s.subspec 'Fermata' do |sp|
     sp.dependency 'vipaar-ballyhoo/Core'
-    sp.source_files = 'libballyhoo/Fermata/**/*.{h,m}'
+    sp.source_files = 'libballyhoo/fermata/**/*.{h,m}'
     sp.private_header_files = ['libballyhoo/fermata/**/*+Private*.h']
   end
 
-    s.subspec 'DstributedAuthentication' do |sp|
+  s.subspec 'DstributedAuthentication' do |sp|
     sp.dependency 'vipaar-ballyhoo/Core'
     sp.source_files = 'libballyhoo/dstributedAuthentication/**/*.{h,m}'
     sp.private_header_files = ['libballyhoo/dstributedAuthentication/**/*+Private*.h']
