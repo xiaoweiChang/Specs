@@ -23,7 +23,7 @@
 
   s.subspec 'Core' do |sp|
     sp.source_files = 'libballyhoo/core/**/*.{h,m}'
-    sp.private_header_files = ['libballyhoo/core/**/*+Private*.h', 'libballyhoo/core/internal/**/*.h']
+    sp.private_header_files = ['libballyhoo/core/**/*+Private*.h', 'libballyhoo/core/internal/**/*.h', 'libballyhoo/core/Promise/**/*.h']
   end
 
   s.subspec 'Galdr' do |sp|
