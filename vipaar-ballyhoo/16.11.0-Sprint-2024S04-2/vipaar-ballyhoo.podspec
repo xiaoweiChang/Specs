@@ -9,7 +9,7 @@
   s.requires_arc = true
   s.ios.dependency  'vipaar-rcl', '1.0.3'
   s.ios.dependency  'CocoaZ', '1.4.2'
-  s.ios.dependency  'vipaar-xmlrpc'
+  s.ios.dependency  'vipaar-xmlrpc', '1.0.3-Beta'
   s.ios.dependency  'PromisesObjC', '2.0.0'
   s.ios.dependency  'Realm', '10.41.1'
   s.module_name  = 'HLSDKBallyhoo'
