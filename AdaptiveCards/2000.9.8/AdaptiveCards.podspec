@@ -42,6 +42,10 @@ Pod::Spec.new do |spec|
     spec.subspec 'UIProviders' do | sspec |
       sspec.dependency 'MicrosoftFluentUI/Tooltip_ios', '~> 0.3.6'
       sspec.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'ADAPTIVECARDS_USE_FLUENT_TOOLTIPS=1' }
+      sspec.xcconfig = {
+        'FRAMEWORK_SEARCH_PATHS' => '"${PODS_CONFIGURATION_BUILD_DIR}/MicrosoftFluentUI"',
+        'OTHER_LDFLAGS'          => '-framework \"FluentUI\"'
+    }
     end
   
     spec.platform         = :ios, '14'
