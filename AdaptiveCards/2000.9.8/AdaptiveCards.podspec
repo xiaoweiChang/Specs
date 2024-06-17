@@ -44,7 +44,7 @@ Pod::Spec.new do |spec|
       sspec.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'ADAPTIVECARDS_USE_FLUENT_TOOLTIPS=1' }
       sspec.xcconfig = {
         'FRAMEWORK_SEARCH_PATHS' => '"${PODS_CONFIGURATION_BUILD_DIR}/MicrosoftFluentUI"',
-        'OTHER_LDFLAGS'          => '-framework \"FluentUI\"'
+        'OTHER_LDFLAGS'          => '-framework "FluentUI"'
     }
     end
   
