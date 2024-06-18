@@ -20,8 +20,4 @@ Pod::Spec.new do |s|
 
     s.vendored_frameworks       = ['FluentUI.framework']
 
-    s.pod_target_xcconfig       = {
-        'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-MicrosoftFluentUI/distributive"',
-    }
-
 end
