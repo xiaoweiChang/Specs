@@ -44,7 +44,7 @@ Pod::Spec.new do |spec|
       sspec.dependency 'vipaar-MicrosoftFluentUI', '0.3.9'
       sspec.pod_target_xcconfig = { 
         'GCC_PREPROCESSOR_DEFINITIONS' => 'ADAPTIVECARDS_USE_FLUENT_TOOLTIPS=1'
-        'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-MicrosoftFluentUI/distributive"',
+        'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-MicrosoftFluentUI/distributive"'
       }
     end
   
