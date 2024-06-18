@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/microsoft/fluentui-apple"
     s.license      = 'Copyright VIPAAR 2024'
     s.author       = 'Help Lightning'
-    s.source       = { :git => "ssh://git@github.com:HaleXie/vipaar-MicrosoftFluentUI.git", :tag => "#{s.version}" }
+    s.source       = { :git => "ssh://git@github.com/HaleXie/vipaar-MicrosoftFluentUI.git", :tag => "#{s.version}" }
     s.source_files = ''
     s.requires_arc = true
     s.platform                  = :ios
