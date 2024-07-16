@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HLSDK"
-  s.version      = "17.0.2"
+  s.version      = "17.0.3"
   s.summary      = "HLSDK"
   s.homepage     = "https://github.com/VIPAAR/lime-ios-sdk"
   s.license      = 'Copyright VIPAAR 2024'
