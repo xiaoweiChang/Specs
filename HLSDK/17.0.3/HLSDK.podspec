@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = 'Helplightning'
   s.source       = {
     :http => "https://maven.helplightning.net/iOS/HLSDK-iOS-#{s.version}.zip",
-    :sha1 => "1d555174c01785a60553f706a392077146575d38"
+    :sha1 => "bc2fda3f4e414af877049ae2783ed15629c1a6e3"
   }
   s.source_files = ''
   s.requires_arc = true
