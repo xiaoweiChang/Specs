@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
     spec.name             = 'AdaptiveCards'
   
-    spec.version          = '2000.9.8'
+    spec.version          = '2000.9.8.1'
   
     spec.license          = { :type => 'Adaptive Cards Binary EULA', :file => 'source/EULA-Non-Windows.txt' } 
   
