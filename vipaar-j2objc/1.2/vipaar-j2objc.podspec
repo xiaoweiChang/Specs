@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.license                   = "Copyright (c) 2017 VIPAAR, LLC."
     s.author                    = "Help Lightning"
     s.source                    = {
-      :http => "https://github.com/google/j2objc/releases/download/#{s.version}/j2objc-#{s.version}.zip",
+      :http => "https://maven.helplightning.net/misc/j2objc-#{s.version}.zip",
       :sha1 => "62988333bcf505514a1af8aa37ee00c5f2b59c35"
     }
     s.preserve_paths            = "distributive"
