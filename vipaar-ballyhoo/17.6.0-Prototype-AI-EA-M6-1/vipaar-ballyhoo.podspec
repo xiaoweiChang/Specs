@@ -11,7 +11,7 @@
   s.ios.dependency  'CocoaZ', '1.4.2'
   s.ios.dependency  'vipaar-xmlrpc', '1.0.4'
   s.ios.dependency  'PromisesObjC', '2.0.0'
-  s.ios.dependency  'Realm', '10.41.1'
+  s.ios.dependency  'Realm', '20.0.1'
   s.module_name  = 'HLSDKBallyhoo'
   s.pod_target_xcconfig      = {
     'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/vipaar-j2objc/distributive/frameworks"',
