@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
     m.ios.dependency 'vipaar-Parchment', '1.7.1'
     m.ios.dependency 'SwiftSignatureView', '2.2.3'
     m.ios.dependency 'vipaar-Presentr', '1.9.1'
-    m.ios.dependency 'Realm', '10.41.1'
+    m.ios.dependency 'Realm', '20.0.1'
     m.ios.dependency 'MarqueeLabel', '4.4.0'
     m.ios.dependency 'ZIPFoundation', '0.9.16'    
 
