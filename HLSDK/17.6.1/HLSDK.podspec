@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = 'Copyright VIPAAR 2024'
   s.author       = 'Helplightning'
   s.source       = {
-    :http => "http://localhost/ios/HLSDK-iOS-#{s.version}.zip",
+    :http => "https://maven.helplightning.net/iOS/HLSDK-iOS-#{s.version}.zip",
     :sha1 => "3089e0c761b394e947249bffac29e1a283a438c9"
   }
   s.source_files = ''
